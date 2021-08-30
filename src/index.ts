@@ -1,1 +1,1 @@
-document.getElementById("footer").innerText = "Touch the sky!!!"
+document.getElementsByTagName("article")[0].innerText = "Touch the sky!!!"
