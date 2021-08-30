@@ -1,3 +1,3 @@
 # Game Name
 
-<% include article.html %>
+{% include article.html %}
