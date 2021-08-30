@@ -4,6 +4,7 @@ remote_theme: daattali/beautiful-jekyll@5.0.0
 
 title: TK's Playing Ground
 description: Place to try various things related to static websites
+avatar: "/img/logo.png"
 github:
   is_project_page: false
 
