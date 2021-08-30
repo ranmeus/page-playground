@@ -40,4 +40,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 <div id="footer">
 Don't touch the ground!!!
 </div>
-<script type="text/javascript" src="/js/pg.min.js" />
+<script type="text/javascript" src="{{site.github.url}}/js/pg.min.js" />
