@@ -5,3 +5,6 @@ title: TK's Playing Ground
 description: Place to try various things related to static websites
 github:
   is_project_page: false
+
+navbar-links:
+  Main: "index"
