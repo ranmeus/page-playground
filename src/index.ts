@@ -1,2 +1,1 @@
-let msg: string = "Hey, yoman!";
-console.log(msg)
+document.getElementById("footer").innerText = "Touch the sky!!!"
