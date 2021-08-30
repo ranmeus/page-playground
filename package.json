@@ -1,0 +1,30 @@
+{
+  "name": "page-playground",
+  "version": "1.0.0",
+  "description": "playground for static websites",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs/js"
+  },
+  "dependencies": {
+    "uglify-js": "^3.14.1"
+  },
+  "devDependencies": {
+    "uglifyjs-folder": "^3.0.0"
+  },
+  "scripts": {
+    "build": "tsc --build && npm run minify",
+    "clean": "tsc --build --clean",
+    "minify": "uglifyjs-folder ./gen/js --config-file 'uglify.json' --output ./docs/js/pg.min.js --pattern '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranmeus/page-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranmeus/page-playground/issues"
+  },
+  "homepage": "https://github.com/ranmeus/page-playground#readme"
+}
